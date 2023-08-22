@@ -9,3 +9,6 @@
 .card{
     @apply flex-col justify-center mt-8 bg-blue-200 rounded overflow-hidden shadow-lg relative px-6 py-2
 }
+.card:hover{
+    @apply shadow-2xl bg-black bg-opacity-50 ease-in-out duration-500 text-white;
+}
