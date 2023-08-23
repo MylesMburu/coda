@@ -21,7 +21,7 @@ export const Contacts = () => {
   };
 
   return (
-    <div className='bg-secondary p-8 md:p-16 min-h-screen'>
+    <div className='bg-gray-100 p-8 md:p-16 min-h-screen'>
     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-2 md:px-6 pt-8'>
       <div className='text-black'>
         <h2 className='border-b-2 border-black pb-1 mb-4 font-bold'>Contact Us</h2>
