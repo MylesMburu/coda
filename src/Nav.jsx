@@ -33,7 +33,7 @@ export const Nav = () => {
         <div className={`md:flex md:gap-16 ${open ? 'flex flex-col ml-24 gap-2' : 'hidden'}`}>
           <NavLink
             to='/'
-            className='nav-hov '
+            className='nav-hov md:py-1'
             activeClassName='text-primary font-bold'
             exact
             onClick={() => setOpen(false)}
@@ -42,7 +42,7 @@ export const Nav = () => {
           </NavLink>
           <NavLink
             to='/about'
-            className='nav-hov '
+            className='nav-hov md:py-1'
             activeClassName='text-primary font-bold'
             onClick={() => setOpen(false)}
           >
@@ -50,11 +50,19 @@ export const Nav = () => {
           </NavLink>
           <NavLink
             to='/contacts'
-            className='nav-hov mr-16'
+            className='nav-hov md:py-1'
             activeClassName='text-primary font-bold'
             onClick={() => setOpen(false)}
           >
             Contact Us
+          </NavLink>
+          <NavLink
+            to='/contacts'
+            className='nav-hov donate_btn mr-16'
+            activeClassName='text-primary font-bold'
+            onClick={() => setOpen(false)}
+          >
+            Donate
           </NavLink>
         </div>
       </div>

@@ -12,3 +12,6 @@
 .card:hover{
     @apply shadow-2xl bg-black bg-opacity-50 ease-in-out duration-500 text-white;
 }
+.donate_btn {
+    @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-yellow-400 hover:text-black text-center text-sm flex items-center justify-center;
+}

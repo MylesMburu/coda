@@ -24,23 +24,23 @@ export const Contacts = () => {
     <div className='bg-secondary p-8 md:p-16 min-h-screen'>
     <div className='grid grid-cols-1 md:grid-cols-2 gap-4 px-2 md:px-6 pt-8'>
       <div className='text-black'>
-        <h2 className='border-b-2 pb-1 mb-4 font-bold'>Contact Us</h2>
+        <h2 className='border-b-2 border-black pb-1 mb-4 font-bold'>Contact Us</h2>
         <div className='px-2 mb-8 md:mb-16'>
           <p>We would love to hear from you!</p>
           <p>
             Reach out for any suggestions or enquiries. We'll get back to you as soon as possible.
           </p>
         </div>
-        <div className='flex flex-col md:flex-row gap-4 bg-secondary text-text1 p-3 rounded mb-4'>
+        <div className='flex flex-col md:flex-row gap-4 bg-yellow-300 text-text1 p-3 rounded mb-4'>
           <VscLocation className='mt-1' />
           <h3>Kong Oscars Gate 62, 5017 BERGEN</h3>
         </div>
-        <div className='flex flex-col md:flex-row gap-4 bg-secondary text-text1 p-3 rounded mb-4'>
+        <div className='flex flex-col md:flex-row gap-4 bg-yellow-300 text-text1 p-3 rounded mb-4'>
           <HiOutlineMail className='mt-1' />
           <h3 className='text-sm md:text-base'>codanorge2023@outlook.com</h3>
         </div>
 
-        <div className='flex flex-row p-4 gap-2'>
+        <div className='flex flex-row p-4 gap-2 md:gap-6'>
           <a href="https://twitter.com/CODANorge" target='_blank' rel='noopener noreferrer' ><RxTwitterLogo/></a>
           <a href="https://www.facebook.com/profile.php?id=100091150794754" target="_blank" rel="noopener noreferrer"><SlSocialFacebook/></a>
           <a href="https://www.instagram.com/codanorge/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
