@@ -57,7 +57,7 @@ export const Contacts = () => {
             required
             className='p-2 rounded-md mb-4'
           ></textarea>
-          <button type='submit' className='py-2 px-4 bg-black bg-opacity-50 text-white0 w-max rounded-md'>
+          <button type='submit' className='py-2 px-4 bg-black bg-opacity-70 text-white0 w-max rounded-md hover:border hover:border-black hover:bg-opacity-60'>
             Send Message
           </button>
         </form>
