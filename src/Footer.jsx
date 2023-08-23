@@ -21,11 +21,16 @@ export const Footer = () => {
         <a href="https://www.instagram.com/codanorge/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
     </div>
 
-    <div className='relative flex flex-col py-8 justify-center items-center'>
-        <div className='border-t-2 border-blue-600 w-3/4 py-4'></div>
-        <span>Copyright © {currentYear} CUSH ORGNISATION FOR DEVELOPMENT ADVOCACY (CODA), NORGE</span>
-      </div>
+    <div class="relative flex flex-col py-8 justify-center items-center">
+      <div class="border-t-2 border-blue-600 w-3/4 md:w-1/2 lg:w-1/3 py-4"></div>
+      <span class="text-center mt-2">
+        Copyright © {currentYear} CUSH ORGNISATION FOR DEVELOPMENT ADVOCACY (CODA), NORGE
+      </span>
     </div>
+
+    </div>
+
+    
   )
 }
 
